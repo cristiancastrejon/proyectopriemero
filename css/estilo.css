@@ -1,0 +1,171 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0%;
+}
+header{
+    padding-left: 10%;
+    padding-right:10%;
+}
+
+.cuerpo-medio{
+    background: #EEE0CB;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.articulo{
+    padding: 1%;
+    background: #BAA898;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    overflow: hidden;
+    width: 80%;
+
+}
+.articulo img{
+    float: left;
+    width: 40%;
+    
+}
+.articulo h1{
+    color: #366831;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.articulo p{
+    text-align: justify;
+    font-size: 30px;
+    color: #366831;
+    
+    float: left;
+    padding-left: 5%;
+    width: 50%;
+}
+.caja{
+    background: #BAA898;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+    padding-bottom: 1%;
+    margin-bottom:5% ;
+}
+.caja h2{
+    text-align: center;
+    text-transform: capitalize; 
+    color: #366831;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 50px;
+}
+.caja2{
+    background: #EEE0CB;
+   display: inline-block;
+   width: 30%;
+   height: 100%;
+   margin-left:2% ;
+   
+}
+.caja2 img{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+
+}
+.caja2 h3{
+    color: #366831;    
+    text-align: center;
+    font-size: 30px;  
+    text-transform: capitalize; 
+    
+} 
+nav{
+	padding-left: 10%;
+    padding-right:10%;
+}
+ul{
+	 list-style-type: none;
+	 margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+li{
+	float: left;
+
+}
+.lab a{
+	    display: block;
+	text-align: center;
+	padding: 20% 5%;
+	text-decoration: none;
+	color:#366831;
+}
+.parte a{
+	display: block;
+	color:#366831;
+	padding: 32px 16px;
+	text-decoration: none;
+	font-size: 30px;
+}
+li a:hover {
+    background-color:#EEE0CB;
+    color:#BAA898;
+}
+.contenedornav{
+	border-bottom:3px solid #366831;
+	padding-left: 20%;
+}
+.lab{
+	display: none;
+}
+.lab li{
+	float: none;
+}
+.lab li a{
+	line-height: 50%;
+	padding: 5% 0%;
+	font-size: 150%
+}
+nav ul li:hover >ul{
+	display: block;
+}
+ footer{
+    background: #BAA898;    
+    padding-left: 10%;
+    padding-right: 10%;
+}
+table tr th img{
+    float: left;
+}
+.texpie{
+width: 70%;
+padding-right: 30%;
+text-align: justify;
+color:#000000 ;
+font-size: 120%;  
+}
+.texpie2{
+    width: 15%;
+    font-size: 200%;
+    color: #366831;
+}
+.autor{
+    color: #366831;
+}
+
+.pienlace {
+    text-decoration: none;
+    color: blue;
+    color:#000000; 
+}
+.columnapie{
+    text-align: center;
+    color:#EEE0CB ; 
+    font-size: 140%;  
+}
+table{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+}

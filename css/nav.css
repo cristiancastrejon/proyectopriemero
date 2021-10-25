@@ -1,0 +1,102 @@
+@charset "ISO-8859-1";
+nav{
+	padding-left: 10%;
+    padding-right:10%;
+}
+ul{
+	list-style-type: none;
+	 margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+li{
+	float: left;
+}
+.lab a{
+	    display: block;
+	text-align: center;
+	padding: 20% 5%;
+	text-decoration: none;
+	color:#366831;
+}
+.parte a{
+	display: block;
+	color:#366831;
+	padding: 32px 16px;
+	text-decoration: none;
+	font-size: 30px;
+}
+li a:hover {
+    background-color:#EEE0CB;
+    color:#BAA898;
+}
+.contenedornav{
+	border-bottom:3px solid #366831;
+	padding-left: 20%;
+}
+.lab{
+	display: none;
+}
+.lab li{
+	float: none;
+}
+.lab li a{
+	line-height: 50%;
+	padding: 5% 0%;
+	font-size: 150%
+}
+nav ul li:hover >ul{
+	display: block;
+}
+/*
+nav{
+	padding-left: 10%;
+    padding-right:10%;
+}
+ul{
+	 list-style-type: none;
+	 margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+li{
+	float: left;
+
+}
+a{
+	    display: block;
+	text-align: center;
+	padding: 20% 5%;
+	text-decoration: none;
+	color:#366831;
+}
+.parte a{
+	display: block;
+	color:#366831;
+	padding: 32px 16px;
+	text-decoration: none;
+	font-size: 30px;
+}
+li a:hover {
+    background-color:#EEE0CB;
+    color:#BAA898;
+}
+.contenedornav{
+	border-bottom:3px solid #366831;
+	padding-left: 20%;
+}
+.lab{
+	display: none;
+}
+.lab li{
+	float: none;
+}
+.lab li a{
+	line-height: 50%;
+	padding: 5% 0%;
+	font-size: 150%
+}
+nav ul li:hover >ul{
+	display: block;
+}
+*/

@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+
+main{
+	background: #EEE0CB;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 3%;
+display: block;
+}
+h1{
+	text-align: center;
+	color: #366831;
+	font-size: 500%;
+}
+.seccion-post{
+	height: 100%;
+	border-bottom: 3px solid #366831;
+	overflow:hidden;  
+}
+.caja-post{
+	padding: 2%;
+	overflow:hidden; 
+}
+.post{
+	width:30%;
+	float: left;
+	margin: 1%;
+  border: #BAA898 5px double;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.titulo{
+	color: #366831;
+	text-align: center;
+	font-size: 250%;
+}
+.descripcion{
+	color: #366831;
+	text-align: justify;
+	padding: 5%;
+	font-size: 150%;
+}
+.figura{
+	width: 100%;
+	height: 100%;
+}

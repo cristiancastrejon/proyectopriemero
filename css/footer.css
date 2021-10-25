@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0%;
+}
+footer{
+	background: #BAA898;
+	padding-left: 10%;
+	padding-right: 10%;  
+}
+table {
+	width: 100%;
+	padding-top: 3%;
+    padding-bottom: 3%;
+}
+table tr th img{
+	float: left;
+}
+.texpie{
+	width: 70%;
+	padding-right: 30%;
+	text-align: justify;
+	color:#000000 ;
+	font-size: 120%;
+}
+.texpie2{
+	width: 15%;
+	font-size: 200%;
+	color: #366831;
+}
+.autor{
+	color: #366831;
+}
+.pienlace{
+	text-decoration: none;
+	color:#000000; 
+}
+.columnapie{
+	text-align: center; 
+    font-size: 140%; 
+}
